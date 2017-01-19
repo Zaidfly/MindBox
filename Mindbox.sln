@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBoxJourney", "Journey\MindBoxJourney.csproj", "{6EF60678-9243-4777-A936-E5CBACC57792}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DD8D15E2-314A-4F1E-888B-4F48AB1BB2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.Tests", "Journey.Tests\Journey.Tests.csproj", "{82DDFC79-F105-4F8E-8A1B-BB255984A757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EF60678-9243-4777-A936-E5CBACC57792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF60678-9243-4777-A936-E5CBACC57792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF60678-9243-4777-A936-E5CBACC57792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF60678-9243-4777-A936-E5CBACC57792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DDFC79-F105-4F8E-8A1B-BB255984A757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DDFC79-F105-4F8E-8A1B-BB255984A757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DDFC79-F105-4F8E-8A1B-BB255984A757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DDFC79-F105-4F8E-8A1B-BB255984A757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82DDFC79-F105-4F8E-8A1B-BB255984A757} = {DD8D15E2-314A-4F1E-888B-4F48AB1BB2DE}
+	EndGlobalSection
+EndGlobal
