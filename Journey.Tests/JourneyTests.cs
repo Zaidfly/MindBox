@@ -97,14 +97,14 @@ namespace Journey.Tests
 
             var expected = new TicketCard[cardsCount];
 
-            var rndCity1 = new string(Enumerable.Repeat(chars, nameLength).Select(s => s[rnd.Next(s.Length)]).ToArray());
-            var uniqueNameChecker = new HashSet<string> {rndCity1};
+            var rndCity1 = new string(Enumerable.Range(0, nameLength).Select(s => chars[rnd.Next(chars.Length)]).ToArray());
+            var uniqueNameChecker = new HashSet<string> { rndCity1 };
             for (var i = 0; i < cardsCount; i++)
             {
-                var rndCity2 = new string(Enumerable.Repeat(chars, nameLength).Select(s => s[rnd.Next(s.Length)]).ToArray());
+                var rndCity2 = new string(Enumerable.Range(0, nameLength).Select(s => chars[rnd.Next(chars.Length)]).ToArray());
                 while (!uniqueNameChecker.Add(rndCity2))
                 {
-                    rndCity2 = new string(Enumerable.Repeat(chars, nameLength).Select(s => s[rnd.Next(s.Length)]).ToArray());
+                    rndCity2 = new string(Enumerable.Range(0, nameLength).Select(s => chars[rnd.Next(chars.Length)]).ToArray());
                 }
                 expected[i] = new TicketCard(rndCity1, rndCity2);
                 rndCity1 = rndCity2;

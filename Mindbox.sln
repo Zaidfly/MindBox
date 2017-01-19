@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DD8D15E2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.Tests", "Journey.Tests\Journey.Tests.csproj", "{82DDFC79-F105-4F8E-8A1B-BB255984A757}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLQueries", "SQLQueries", "{8062DACB-B15B-4838-A809-6BF24ED69423}"
+	ProjectSection(SolutionItems) = preProject
+		CreateSalesTable.sql = CreateSalesTable.sql
+		TemptingProducts.sql = TemptingProducts.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
